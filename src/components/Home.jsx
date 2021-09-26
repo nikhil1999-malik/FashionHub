@@ -23,6 +23,18 @@ function Home(){
             </div>
         </div>
 
+        <div className="container">
+           <div className="row">
+             <div className="col-lg-6">
+               
+             </div>
+             <div className="col-lg-6">
+
+             </div>
+           </div>
+        </div>
+
+
         </div>
 
     )
