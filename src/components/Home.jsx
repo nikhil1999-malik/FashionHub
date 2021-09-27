@@ -1,6 +1,10 @@
 import image from "../Images/img-home.jpg"
 import "../components/home.css"
 import fashion from "../Images/fashion-home.jpg"
+import fashion2 from "../Images/fashion-home2.jpg"
+import fashion3 from "../Images/fashion-home3.jpg"
+import Footer from "./footer"
+
 
 
 function Home(){
@@ -25,15 +29,23 @@ function Home(){
 
         <div className="container">
            <div className="row">
-             <div className="col-lg-6">
-               
+             <div className="col-lg-4">
+               <img src={fashion2} width="300px" height="300px" alt="fashion2" />
              </div>
-             <div className="col-lg-6">
-
+             <div className="col-lg-4">
+                <h3>“You either know fashion or you don’t.” </h3>
+                <h1 className="TextAuthor">-Anna Wintour</h1>
+             </div>
+             <div className="col-lg-4">
+                <img src={fashion3} alt={fashion3} />
              </div>
            </div>
         </div>
 
+         <div>
+             <Footer />
+         </div>
+        
 
         </div>
 
