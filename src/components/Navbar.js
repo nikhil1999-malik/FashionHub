@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <NavLink className="navbar-brand" to="/">Fashion</NavLink>
+    <NavLink className="navbar-brand" to="/"><i className="fas fa-gem m-1"></i>Fashion</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -18,10 +18,10 @@ function Navbar() {
           <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/features">Contact</NavLink>
+          <NavLink className="nav-link" to="/contact">Contact</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/pricing">Products</NavLink>
+          <NavLink className="nav-link" to="/products">Products</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/about">About</NavLink>
